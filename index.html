@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive login</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="forms-container">
+				<div class="signin-signup">
+					<form action="" class="sign-in-form">
+						<h2 class="title">Iniciar sesión</h2>
+						<div class="input-field">
+							<i class="fas fa-user"></i>
+							<input type="text" placeholder="Nombre de usuario" />
+						</div>
+						<div class="input-field">
+							<i class="fas fa-lock"></i>
+							<input type="password" placeholder="Contraseña" />
+						</div>
+						<input type="submit" value="Login" class="btn solid" />
+						<p class="social-text">o accede desde alguna red social</p>
+						<div class="social-media">
+							<a href="#" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-google" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-github" aria-hidden="true"></i></a>
+						</div>
+					</form>
+					<form action="" class="sign-up-form">
+						<h2 class="title">Registrarse</h2>
+						<div class="input-field">
+							<i class="fas fa-user"></i>
+							<input type="text" placeholder="Nombre de usuario" />
+						</div>
+						<div class="input-field">
+							<i class="fas fa-envelope"></i>
+							<input type="text" placeholder="Correo electrónico" />
+						</div>
+						<div class="input-field">
+							<i class="fas fa-lock"></i>
+							<input type="password" placeholder="Contraseña" />
+						</div>
+						<input type="submit" value="Sign up" class="btn solid" />
+						<p class="social-text">o regístrate desde alguna red social</p>
+						<div class="social-media">
+							<a href="#" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-google" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#" class="social-icon"><i class="fa fa-github" aria-hidden="true"></i></a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="panels-container">
+				<div class="panel left-panel">
+					<div class="content">
+						<h3>Nuevo aquí?</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptas?</p>
+						<button id="sign-up-btn" class="btn transparent">Regístrate</button>
+					</div>
+					<img src="img/welcoming.svg" class="image" alt="" />
+				</div>
+				<div class="panel right-panel">
+					<div class="content">
+						<h3>Ya tienes cuenta?</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptas?</p>
+						<button id="sign-in-btn" class="btn transparent">Ingresar</button>
+					</div>
+					<img src="img/signin.svg" class="image" alt="" />
+				</div>
+			</div>
+		</div>
+		<script src="https://kit.fontawesome.com/12aa55278e.js" crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
